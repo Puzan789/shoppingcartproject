@@ -1,0 +1,32 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: sans-serif;
+}
+.cart
+{
+    position: relative;
+    
+}
+.cartamount{
+    font-size: 15px;
+    color:#e37329;
+    position:absolute;
+    top: 0;
+    right: 0;
+}
+.price-quantity{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.buttons{
+    display: flex;
+    gap:5px;
+}
